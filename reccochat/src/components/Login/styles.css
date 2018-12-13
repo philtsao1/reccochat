@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.Login {
+	display: flex;
+	align-items: center;
+  	flex-direction: column;
+  	background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  	height: 100vH;
+  	justify-content: center;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	font-family: 'Josefin Sans', cursive;
+	margin: 20px 0;
+}
+
+.Login input, #login-register {
+	padding-left: 10px;
+	border-radius: 10px;
+	width: 20%;
+	height: 40px;
+}
+
+.Login #submit-button, #login-register {
+	border-radius: 10px;
+	background-color: white;
+	color: #3a3a3a;
+}
+
+.Login a {
+	text-decoration: none;
+	color: #3a3a3a
+}
+
+.Login #submit-button:hover {
+	background-color: #96beff;
+	color: white;
+}
+
+.Login #register:hover {
+	background: #96beff;
+}
+
+h1, h2 {
+	font-family: 'Luckiest Guy', cursive !important;
+	letter-spacing: 5px;
+}
